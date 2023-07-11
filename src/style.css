@@ -1,0 +1,2871 @@
+  @font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Medium.eot');
+    src: local('Futura PT Medium'), local('FuturaPT-Medium'),
+      url('../fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/FuturaPT-Medium.woff2') format('woff2'),
+      url('../fonts/FuturaPT-Medium.woff') format('woff'),
+      url('../fonts/FuturaPT-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli-Regular.eot');
+    src: local('Muli Regular'), local('Muli-Regular'),
+      url('../fonts/Muli-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Muli-Regular.woff2') format('woff2'),
+      url('../fonts/Muli-Regular.woff') format('woff'),
+      url('../fonts/Muli-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli-SemiBold.eot');
+    src: local('Muli SemiBold'), local('Muli-SemiBold'),
+      url('../fonts/Muli-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Muli-SemiBold.woff2') format('woff2'),
+      url('../fonts/Muli-SemiBold.woff') format('woff'),
+      url('../fonts/Muli-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Light.eot');
+    src: local('Futura PT Light'), local('FuturaPT-Light'),
+      url('../fonts/FuturaPT-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/FuturaPT-Light.woff2') format('woff2'),
+      url('../fonts/FuturaPT-Light.woff') format('woff'),
+      url('../fonts/FuturaPT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  /* ========================== Defualt CSS =========================  */
+  :root {
+    --bs-body: #0d6efd;
+    --bs-top-hed: #000926;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+  }
+
+  body {
+    color: #777777;
+    font-family: 'Muli';
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #091854;
+    font-family: 'Futura PT';
+    font-weight: 500;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .spacer {
+    padding: 70px 0 20px 0;
+  }
+  p
+  {font-size: 16px;
+    color: #687693;
+    line-height: 1.8em;}
+
+  /* =============================== Top Header CSS ============================ */
+  .top_header {
+    background-color: var(--bs-top-hed);
+    font-size: 16px;
+    color: #e5e3e3;
+    padding: 0 100px;
+  }
+
+  .top_header ul {
+    overflow: hidden;
+    list-style: none;
+    float: left;
+    margin-bottom: 0;
+  }
+
+  .ic ul {
+    overflow: hidden;
+    list-style: none;
+    float: right;
+    margin-bottom: 0;
+  }
+
+  .contact_detail ul {
+    padding-left: 0;
+    margin: 0;
+    margin-bottom: 0;
+  }
+
+  .contact_detail ul li:first-child {
+    padding-left: 0;
+  }
+
+  .contact_detail li a:hover {
+    color: var(--bs-red);
+  }
+
+  .contact_detail li {
+    font-size: 16px;
+    padding: 15px 10px 5px;
+    color: #e5e3e3;
+    line-height: 1em;
+    font-family: 'Muli';
+    font-weight: 400;
+  }
+
+  .contact_detail li a {
+    font-size: 16px;
+    color: #e5e3e3;
+    line-height: 1em;
+    font-family: 'Muli';
+    font-weight: 400;
+  }
+
+  .icon_top {
+
+    position: relative;
+    /* top: 1px; */
+    display: inline-block;
+    padding-right: 5px;
+    font-size: 24px;
+  }
+
+  .icon_top2 {
+    font-size: 24px;
+  }
+
+  /* =====================================================================
+                                Navbar CSS
+========================================================================= */
+  .nav_btn {
+    cursor: pointer;
+    font-family: "Futura PT";
+    font-size: 15px;
+    border-radius: 5px;
+    position: relative;
+    color: #fff !important;
+    display: inline-block;
+    font-weight: 500;
+    padding: 10px 15px;
+    border: 0;
+    text-transform: capitalize;
+    z-index: 1;
+    background: linear-gradient(90deg, rgb(45, 73, 189) 0%, rgb(222, 32, 69) 100%);
+    border: none !important;
+    transition: 1s;
+
+    /* border: 1px solid transparent!important; */
+  }
+
+  .nav_btn:hover {
+    background: linear-gradient(90deg, rgb(222, 32, 69) 0%, rgb(45, 73, 189) 100%);
+    transition: 1s;
+  }
+
+  .navbar-nav .nav-link,
+  .navbar-nav .nav-link:first-child {
+    padding: 30px 15px !important;
+    font-size: 18px;
+    position: relative;
+    font-family: "Futura PT";
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff!important;
+    cursor: pointer;
+  }
+  /* ============== About Navbar CSS Start =================== */
+
+  .navbar-nav .nav-link.nav_style
+{
+    padding: 30px 15px !important;
+    font-size: 18px;
+    position: relative;
+    font-family: "Futura PT";
+    font-weight: 500;
+    text-transform: uppercase;
+    color: black!important;
+    cursor: pointer;
+  }
+  .navbar-nav .nav-link.nav_style:hover
+  {
+    color: #DE2045!important;
+  }
+    .nav-link::before {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 0;
+    height: 4px;
+    transform: translateX(-50%);
+    background: #DE2045;
+    content: "";
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    border-radius: 3px;
+  }
+
+  .navbar-nav .nav-link:hover::before,
+  .navbar-nav .nav-link:first-child::before {
+    visibility: visible;
+    opacity: 1;
+    width: 95%;
+  }
+
+
+  /* ============== About Navbar CSS End=================== */
+
+
+  .navbar-collapse {
+    position: relative;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, 0.3)!important;
+  }
+
+  .nav-link::before {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 0;
+    height: 4px;
+    transform: translateX(-50%);
+    background: #DE2045;
+    content: "";
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    border-radius: 3px;
+  }
+
+  .navbar-nav .nav-link:hover::before,
+  .navbar-nav .nav-link:first-child::before {
+    visibility: visible;
+    opacity: 1;
+    width: 95%;
+  }
+
+  .navbar-nav .nav-link:hover .sub_menu {
+    visibility: visible;
+    opacity: 1;
+
+  }
+
+  .sub_menu {
+    display: block;
+    background-color: #fff;
+    box-shadow: 0px 2px 20px 0px rgb(62 65 159 / 9%);
+    width: 235px;
+    position: absolute;
+    padding: 20px 0;
+    left: 0;
+    top: 110%;
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+
+  .sub_menu li {
+    position: relative;
+  }
+
+  .sub_menu li a {
+    font-size: 16px;
+    display: block;
+    padding: 10px 15px;
+    color: #091854;
+    font-family: "Futura PT";
+    position: relative;
+    overflow: hidden;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .sub_menu li a::after {
+    position: absolute;
+    left: 15px;
+    bottom: 4px;
+    width: 0px;
+    height: 2px;
+    content: "";
+    background: #DE2045;
+    transition: all 0.3s;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .sub_menu li a:hover::after {
+    width: 40px;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .line {
+    width: 0;
+    height: 2px;
+    top: 70%;
+    left: 8px;
+    position: absolute;
+    background-color: #263a4f;
+    transition: .4s;
+  }
+
+  .sub_menu li:hover .line {
+    width: 30%;
+
+  }
+
+  .main_header li:hover .sub_menu {
+    display: block;
+  }
+
+  .navbar-toggler {
+    background-color: #DE2045 !important;
+  }
+ 
+/* ============================================================================
+                              Sec- 3 Slider CSS 
+   ========================================================================== */
+
+
+  .main_slider {
+    /* height: 800px; */
+    /* display: flex; */
+    position: relative;
+    z-index: 0;
+    /* margin-top: -95px; */
+  }
+
+  .carousel-item {
+    position: relative;
+  }
+
+  .owl_main .carousel-item::before {
+    position: absolute;
+    content: " ";
+    left: 0;
+    top: 0;
+    background-color: #091854;
+    opacity: 0.50;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 25%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+    width: 870px;
+    z-index: 10;
+  }
+
+  .carousel-caption h2 {
+    font-size: 95px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    /* line-height: 95px!important; */
+    margin: 10px 0 15px;
+    color: #fff;
+    text-transform: capitalize;
+  }
+
+  .carousel-caption p {
+    font-size: 22px;
+    color: #fff;
+    line-height: 35px;
+    margin-bottom: 50px;
+    color: #e2e2e2;
+  }
+
+  .head_top {
+    z-index: 100;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.2);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    /* opacity: 0.7; */
+    text-align: center;
+    transition: all 0.3s;
+    color: white;
+    z-index: 10;
+
+  }
+
+  .carousel-control-prev {
+    position: absolute;
+    top: 45%;
+    left: 30px;
+  }
+
+  .carousel-control-next {
+    position: absolute;
+    top: 45%;
+    right: 30px;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    font-size: 10px !important;
+  }
+
+.slide_btn
+{
+  border: 1px solid #fff!important;
+    color: #fff;
+    display: inline-block;
+    padding: 18px 35px;
+    text-transform: capitalize;
+    z-index: 1;
+    position: relative;
+    font-family: "Futura PT";
+    font-size: 14px;
+    font-weight: 600;
+    background: transparent;
+    transition: all 0.4s ease-in-out;
+    color: #fff!important;
+}
+.slide_btn::before {
+  position: absolute;
+  content: " ";
+  width: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #DE2045;
+  z-index: -1;
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+
+}
+
+.slide_btn:hover::before {
+  width: 100%;
+  /* color: #fff; */
+}
+
+.slide_btn:hover {
+  border: 1px solid #DE2045!important;
+  color: #fff;
+}
+
+/* ---------------------- Dots --------------------- */
+
+.carousel-indicators [data-bs-target] {
+  width: 0px!important;
+  height: 0px!important;
+  padding: 0px 8px;
+  text-align: center!important;
+  /* line-height: 12px; */
+  /* font-size: 8px; */
+  color: #000;
+  opacity: 1;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.2);
+}
+.carousel-indicators
+{
+  position: absolute;
+  /* right: -50%;
+  bottom: 0;
+  left: 30%; */
+  z-index: 10;
+  padding: 0;
+  /* visibility: hidden; */
+  opacity: 0;
+  text-align: center!important;
+}
+.carousel-indicators .active {
+background-color: white;
+}
+
+
+
+
+  /* =================================================================
+                        Sec - 4 Services CSS
+=========================================================================*/
+  .item{
+    padding: 50px;
+    box-shadow: 0px 0px 20px 0px rgb(20 33 43 / 10%);
+    border: none;
+    margin: 20px 20px;
+  }
+  .item_containt h2{
+    color: #091854;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: "Futura PT";
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .item_containt p {
+    color: #6C7187;
+    font-size: 16px;
+    line-height: 1.8em;
+    text-align: center;
+
+  }
+  .item_containt a {
+    display: inline-block;
+    padding: 10px 35px;
+    color: #091854;
+    border: 1px solid #DE2045 !important;
+    position: relative;
+    border-radius: 6px;
+    /* margin-top: 10px; */
+    margin: 10px auto 0 !important;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: white;
+
+  }
+  .item_containt a:hover {
+    background-color: #de2045;
+    color: white;
+  }
+
+  /* .card-img-top {
+    border-radius: 50%;
+    padding: 10px 20px;
+  } */
+
+  .service_icon {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    background: #091854;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .service_icon img {
+    width: 2px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .owl-prev {
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+    background: #fff !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+    transition: all 0.3s;
+    border: 1px solid #091854 !important;
+    font-size: 30px!important;
+    color: #091854!important;
+  }
+
+  .owl-next {
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+    background: #fff !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+    transition: all 0.3s;
+    border: 1px solid #091854 !important;
+    font-size: 30px!important;
+    color: #091854!important;
+  }
+  .owl-prev:hover, .owl-next:hover
+  {
+    background-color: #DE2045!important;
+    border: 1px solid transparent!important;
+    color: white!important;
+  }
+  .owl-theme .owl-nav
+{
+  opacity: 0;
+  transition: .4s;
+}
+.owl-theme:hover .owl-nav
+{
+ opacity: 1;
+ transition: .4s;
+
+} 
+/* 
+
+.owl-theme .owl-dots
+{
+  display: none;
+}
+
+
+
+
+  /* ==============================================================
+                              Sec - 5 About Us
+================================================================== */
+.sec_about_as
+{
+  padding: 70px 0 70px!important;
+}
+  .img_sec {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 570px;
+    border-radius: 6px;
+  }
+
+  .img_sec::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(20, 33, 43, 0.25);
+    border-radius: 6px;
+  }
+
+  .img_sec img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .sec_text {
+    padding-left: 40px;
+  }
+
+  .sec_hed_left span {
+    font-family: 'Futura PT';
+    font-size: 15px;
+    color: #de2045;
+    font-weight: 600;
+    position: relative;
+    padding: 0 20px;
+  }
+
+  .sec_hed_left span::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    content: "";
+    width: 8px;
+    height: 2px;
+    background: #DE2045;
+    transform: translateY(-50%);
+  }
+
+  .sec_hed_left span::after {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    content: "";
+    width: 8px;
+    height: 2px;
+    background: #DE2045;
+    transform: translateY(-50%);
+  }
+
+  .sec_hed_left h2 {
+    font-family: 'Futura PT';
+    font-weight: 500;
+    color: #091854;
+    text-transform: capitalize;
+    font-size: 55px;
+    margin: 30px 0;
+    line-height: 70px;
+  }
+
+  .sec_text .sub-text {
+    font-family: 'Muli';
+    font-weight: 600;
+    color: #777777;
+    line-height: 32px;
+    font-size: 18px;
+  }
+
+  .about_text {
+    margin: 30px 0 0;
+  }
+
+  .about_text .img_about {
+    height: 100px;
+    width: 100px;
+    border: 1px dashed #9a9a9a;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about_text .text {
+    margin-top: 25px;
+  }
+
+  .about_text .text h3 {
+    font-size: 23px;
+    font-weight: 500;
+    color: #646464;
+    font-family: 'Futura PT';
+
+  }
+
+  .about_text .text p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #777777;
+    line-height: 29px;
+    font-family: 'Futura PT';
+
+  }
+
+  /* ==============================================================
+                              Sec -  6 Donate 
+================================================================== */
+  .donate {
+    position: relative;
+    background: url('./images/asset\ 27.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    z-index: 1;
+    padding: 70px 0 70px 0;
+  }
+
+  .donate::before {
+    position: absolute;
+    content: " ";
+    left: 0;
+    top: 0;
+    background-color: #091854;
+    opacity: 0.88;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .donation_sec {
+
+    background: #fff;
+    padding: 70px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+
+  .donate_img img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .donate_img {
+    margin-right: 50px;
+  }
+
+  .donate_text .sub_title {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.18em;
+    color: #DE2045;
+  }
+
+  .donate_text .title {
+    margin-top: 12px;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: left;
+    margin-bottom: 23px;
+    text-transform: capitalize
+  }
+
+  .progress_bar {
+    margin-bottom: 40px;
+
+  }
+
+  .progress {
+    height: 7px;
+  }
+
+  .progress-bar {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(90deg, rgb(45, 73, 189) 0%, rgb(222, 32, 69) 100%);
+    box-shadow: inset 0px -1px 2px rgb(0 0 0 / 10%);
+    transition: width 0.8s ease-in-out;
+    border-radius: 31px;
+  }
+
+  .progress_text {
+    margin-top: 20px;
+  }
+
+  .progress_text span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #6C7187;
+  }
+
+  .progress_text strong {
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 15px;
+    color: #091854;
+  }
+
+  .btn_donate {
+    padding: 18px 35px;
+    color: #091854;
+    display: inline-block;
+    text-transform: capitalize;
+    z-index: 1;
+    position: relative;
+    font-family: "Futura PT";
+    font-size: 14px;
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #00C99F;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .btn_donate::before {
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #DE2045;
+    z-index: -1;
+    transition: all 0.4s ease-in-out;
+    color: #fff;
+
+  }
+
+  .btn_donate:hover::before {
+    width: 100%;
+    /* color: #fff; */
+  }
+
+  .btn_donate:hover {
+    border: 1px solid #DE2045;
+    color: #fff;
+  }
+
+  /* ====================================================================
+                                Sec - 7 Mission CSS 
+    ======================================================================= */
+  .sec_title h2 {
+    font-size: 42px;
+    margin: 0;
+    text-transform: capitalize;
+    font-family: "Futura PT";
+    font-weight: 600;
+    line-height: 56px;
+    margin-top: 15px;
+  }
+
+  .sec_title {
+    margin-bottom: 60px;
+  }
+
+  .mission_item {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 30px;
+  }
+
+  .mission_item::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #091854 100%);
+    opacity: 0.8;
+    transition: all 0.4s ease-in-out;
+    z-index: 2;
+  }
+
+  .mission_item:hover::before {
+    opacity: 1;
+  }
+
+  .mission_item::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+    background: linear-gradient(90deg, #2D49BD 0%, #DE2045 100%);
+  }
+
+  .mission_item:hover::after {
+    height: 100%;
+    opacity: 0.60;
+    visibility: visible;
+  }
+
+  .mission_item_title {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    font-family: "Futura PT";
+    font-size: 18px;
+    font-weight: 600;
+    color: #091854;
+    text-align: center;
+    width: 80%;
+    padding: 20px 0;
+    display: block;
+    transition: all 0.4s ease-in-out;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+  .mission_item_text {
+    /* visibility: hidden;
+  z-index: 3; */
+    position: absolute;
+    bottom: -80%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: left;
+    width: 80%;
+    padding: 20px 0;
+    transition: all 0.4s ease-in-out;
+    z-index: 5;
+    color: #fff;
+    /* display: none; */
+  }
+
+  .mission_item:hover .mission_item_text {
+
+    bottom: 4%;
+  }
+
+  .mission_item:hover .mission_item_title {
+    display: none;
+  }
+
+  .mission_item_text h3 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .mission_item_text p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+
+  .mission_item img {
+    width: 100% !important;
+  }
+
+  /* =================================================================
+                                Sec - 8 Event CSS 
+  =================================================================== */
+  .sec_event {
+    position: relative;
+    background: #F9F4F4;
+    padding: 50px 0;
+    z-index: 1;
+   
+  }
+
+  .event_hed::before {
+    position: absolute;
+    left: 0;
+    top: 115%;
+    content: "";
+    width: 100px;
+    height: 5px;
+    background: linear-gradient(90deg, rgb(222, 32, 69) 50%, rgb(39, 77, 207) 50%);
+  }
+
+  .event_hed {
+    margin-left: 40px;
+    margin-top: 80px;
+    text-align: left;
+    position: relative;
+  }
+
+  .event_items {
+    padding: 0 15px 40px 15px;
+    background-color: #fff;
+    transition: all 0.4s ease-in-out;
+
+  }
+
+  .event_detail {
+    margin-top: 35px;
+  }
+
+  .event_detail span {
+    color: #989AA5;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'muli';
+    line-height: 18px;
+  }
+
+  .event_detail h2 {
+    margin-top: 10px;
+    margin-bottom: 14px;
+  }
+
+  .event_detail h2 a {
+    color: #091854;
+    font-family: "Futura PT";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .event_img {
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+
+  }
+
+  .event_img img {
+    transition: all 0.4s ease-in-out;
+    width: 100% !important;
+
+  }
+
+  .event_icon {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #091854;
+  }
+
+  .time .event_icon {
+    color: #de2045;
+  }
+
+  .event_items:hover .event_detail h2 {
+    color: #de2045;
+  }
+
+  .event_items:hover img {
+    transform: scale(1.2);
+    transition: all 0.4s ease-in-out;
+
+  }
+
+  /* =============================== Event Backgound==================== */
+  /* ============================================================================ 
+                                  Sec - 9 Blog CSS 
+=============================================================================*/
+  .blog_detail {
+    padding: 60px 35px 40px;
+    border: 1px solid #F9EFEF;
+    border-top: 0px;
+  }
+
+  .blog_detail h2 {
+    color: #091854;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+
+  .blog_detail p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #999BA5;
+    margin-bottom: 25px;
+  }
+
+  .btn_blog {
+    background: #fff;
+    color: #274DCF;
+    display: inline-block;
+    padding: 12px 22px;
+    border: 1px solid #274DCF;
+    border-radius: 55px;
+    text-transform: capitalize;
+    z-index: 1;
+    position: relative;
+    font-family: "Futura PT";
+    transition: all 0.4s ease-in-out;
+
+  }
+
+  .btn_blog:hover {
+    background-color: #274DCF;
+    color: #fff;
+    transition: all 0.4s ease-in-out;
+
+  }
+
+  .blog_item {
+    position: relative;
+  }
+
+  .blog_date {
+    padding: 10px 0;
+    background-color: #f9f4f4;
+    position: absolute;
+    top: 39%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    left: 17%
+  }
+
+  .blog_date span {
+    font-family: "Muli";
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: #DE2045;
+  }
+
+  .blog_date strong {
+    font-family: "Futura PT";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    color: #7A7D8A;
+  }
+
+  .blog_img img {
+    width: 100% !important;
+  }
+  .blog_sec .shape-1 {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+
+  /* ============================================================================ 
+                                  Sec - 10 Footer CSS 
+=============================================================================*/
+  .upper_footer {
+    padding: 70px 0;
+  }
+
+  .footer_sec {
+    position: relative;
+    background: url('./images/asset\ 28.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .footer_sec::before {
+    position: absolute;
+    content: " ";
+    left: 0;
+    top: 0;
+    background-color: #091854;
+    opacity: 0.88;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .logo {
+    margin-bottom: 30px;
+  }
+
+  .footer_1 p,
+  .footer_4 p {
+    margin-bottom: 25px;
+    line-height: 1.9em;
+    color: #fff;
+    font-size: 16px;
+  }
+  .footer_4 p {
+    padding-top: 20px;
+  }
+
+  .footer_icon a {
+    color: #e7e7e7;
+    width: 36px;
+    height: 36px;
+    line-height: 33px;
+    background: transparent;
+    display: block;
+    text-align: center;
+    border: 1px solid #344177;
+    font-size: 18px;
+    transition: all 0.4s ease-in-out;
+
+  }
+
+  .footer_icon {
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+
+  .footer_i {
+    /* padding-bottom: 14px!important; */
+    font-size: 18px;
+
+  }
+
+  .footer_icon li:not(:first-child) {
+    margin-left: 25px;
+
+  }
+
+  .footer_icon li {
+    transition: all 0.4s ease-in-out;
+
+  }
+
+  .footer_icon li:hover {
+    background-color: #de2045;
+    transition: all 0.4s ease-in-out;
+
+  }
+
+  .footer_sec h3 {
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+    position: relative;
+    font-family: "Futura PT";
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .footer_link li a {
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.4s ease-in-out;
+
+  }
+
+  .footer_link li {
+    padding-top: 15px;
+  }
+
+  .footer_link li a:hover {
+    color: #DE2045 !important;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .footer_contact li {
+
+    padding-bottom: 15px;
+    position: relative;
+    padding-left: 5px;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .footer_2 {
+    padding-left: 40px;
+  }
+
+  .footer_contact {
+    margin-top: 20px;
+    padding-right: 10px;
+  }
+
+  .f_icon {
+    position: absolute;
+    left: -35px;
+    top: 5px;
+    font-size: 22px;
+
+  }
+
+  .form-control {
+    padding: 6px 15px;
+    background: #fff;
+    height: 55px;
+    color: #344074;
+    border: 1px solid #fff;
+    box-shadow: none;
+  }
+
+  .submit_btn {
+    background: #DE2045;
+    border: 1px solid transparent;
+    outline: 0;
+    font-size: 20px;
+    color: #fff;
+    width: 45px;
+    line-height: 45px;
+    border-radius: 5px;
+  }
+
+  .submit {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .submit_icon {
+    color: #fff;
+  }
+
+  form {
+    margin-top: 25px;
+    position: relative;
+  }
+
+  /* ==============================================================
+                        Lower Footer CSS
+===========================================================================*/
+  .lower_footer {
+    z-index: 1;
+    text-align: center;
+    position: relative;
+  }
+
+  .lower_footer::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(9, 24, 84, 0) 0%, #FFFFFF 56.25%, rgba(9, 24, 84, 0) 100%);
+    opacity: 0.27;
+    z-index: -1;
+  }
+
+  .copyright {
+    display: inline-block;
+    font-size: 15px;
+    margin: 0;
+    font-weight: 400;
+    color: #9297AD;
+    padding: 20px 0;
+  }
+
+  .lower_footer a {
+    color: #ececee;
+    text-decoration: none;
+  }
+  .footer_sec .shape-1 {
+    position: absolute;
+    width: 100%;
+    top: -6px;
+    left: 56.4%;
+    z-index: -11;
+    transform: translate(-50%, -50%);
+  }
+ .footer_sec .shape-2 {
+    position: absolute;
+    width: 100%;
+    top: -6px;
+    left: 98%;
+    z-index: -11;
+    transform: translate(-50%, -50%);
+ }
+
+/* =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ Shapes CSS =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ */
+.mission_sec .shape-1 
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+.mission_sec .shape-2 {
+  position: absolute;
+  bottom: 0;
+  right: -30%;
+  transform: translateX(-50%);
+  z-index: -11;
+}
+
+/* ==================================================== */
+/* ==================================================== */
+                /* All Page Title image CSS */
+/* ==================================================== */
+/* ==================================================== */
+
+
+.sec_img
+{
+    background-image: url('../src/images/about/asset\ 12.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+    z-index: 1;
+    position: relative;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sec_img::before
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #091854;
+  content: "";
+  z-index: -1;
+  opacity: 0.5;
+
+}
+.ab
+{
+  z-index: 10!important;
+}
+.active_link, .active_link1
+{
+  position: relative;
+}
+.active_link::after
+{
+  position: absolute;
+  content: "";
+  left: -15%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 50%;
+}
+.active_link1::after
+{
+  position: absolute;
+  content: "";
+  left: -15%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 50%;
+}
+.hedding_page
+{
+  text-align: center;
+  z-index: 10;
+}
+.hedding_page h2
+{
+  font-size: 60px;
+  color: #fff;
+  line-height: 60px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  z-index: 10;
+}
+.hedding_page ul li, .hedding_page ul li a
+{
+  display: inline-block;
+  padding: 0px 10px  ;
+  /* padding-right: 20px; */
+  color: #fff;
+  position: relative;
+  font-size: 20px;
+}
+/* ========================================================= */
+/* ========================================================= */
+/*                            About Page CSS                 */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================= Team Members CSS ============== */
+.team_sec
+{
+  padding-top: 20px;
+}
+.team_item
+{
+  text-align: center;
+  padding: 30px;
+  background: #F9F4F4;
+  border-radius: 50%;
+  position: relative;
+  transition: all 0.3s;
+  max-width: 350px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  overflow: hidden!important;
+
+}
+.team_item:hover
+{
+  background: rgba(222, 32, 69, 0.2);
+}
+.team_img
+{
+  overflow: hidden!important;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  position: relative;
+}
+.team_img img
+{
+  width: 100%;
+  height: 100%;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.3s;
+  overflow: hidden!important;
+}
+.team_item_text
+{
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(222, 32, 69, 0.8);
+    border-radius: 50%;
+    transition: all 0.3s;
+    transform: translateY(100%);
+    padding-top: 15px;
+    opacity: 0;
+    overflow: hidden;
+}
+.team_item_text span
+{
+  font-size: 15px;
+  font-weight: 600;
+  color: #F8F2F2;
+}
+.team_item_text h2
+{
+  font-size: 32px;
+  color: #fff;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+.team_item:hover .team_item_text
+{
+  transform: translateY(0);
+  opacity: 1;
+}
+.team_item:hover .team_img img
+{
+  transform: scale(1.2);
+  overflow: hidden;
+}
+.button_plus a
+{
+  border-radius: 50%;
+  padding: 7px 10px 10px;
+  font-size: 22px;
+  border: 1px solid #fff;
+  text-align: center;
+  display: inline-block;
+    width: 50px;
+    height: 50px;
+    /* line-height: 50px; */
+    color: #fff;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.button_plus a::after
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  transform: translateX(-100%);
+  content: "";
+  transition: all 0.5s;
+}
+/* ==================================================
+                        Call Sec CSS
+  ==================================================== */
+  .call_sec
+  {
+    padding-bottom: 80px;
+  }
+.call_backimg
+{
+  background-image: url(./images/about/back.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  padding: 80px 85px;
+}
+.call_btn
+{
+  flex-basis: 20%;
+}
+.call_btn a
+{
+  display: inline-block;
+  padding: 15px 30px;
+  color: #fff!important;
+  position: relative;
+  border-radius: 6px;
+  margin-top: 10px;
+  max-width: 150px;
+  text-transform: uppercase;
+  background: #DE2045;
+}
+.call_btn a:hover
+{
+  background: #ba1b3a;
+  
+}
+
+.call_item
+{
+  padding: 100px 80px;
+  background: rgba(9, 24, 84, 0.9);
+  /* display: flex; */
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  border-radius: 6px;
+  overflow: hidden;
+
+}
+.call_text span
+{
+  text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #00C99F;
+}
+.call_item h2
+{
+  font-size: 50px;
+    color: #fff;
+    margin-top: 20px;
+}
+.call_shape
+{
+  position: absolute;
+  left: -1px;
+  bottom: 0;
+  z-index: -1;
+}
+.call_shape svg
+{
+
+    fill: #DE2045;
+}
+
+
+
+/* ========================================================= */
+/* ========================================================= */
+/*                            Contact Page CSS                 */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================= Contact item CSS ============== */
+.sec_contact,.contact_title
+{
+  padding-top: 100px;
+}
+.office_item
+{
+    text-align: center;
+    box-shadow: 0px 5px 15px 0px rgb(62 65 159 / 10%);
+    padding: 40px;
+    
+}
+.office_icon
+{
+  background-color: #f5f5f5;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto !important;
+  padding: 20px!important;
+  text-align: center;
+}
+.office_i
+{
+  font-size: 30px;
+  color: #687693;
+}
+.office_text h2
+{
+  color: #091854;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.office_text p, .contact_title p
+{
+  font-size: 16px;
+  color: #687693;
+  line-height: 1.8em;
+}
+.m_8
+{
+  margin: 0 8%;
+}
+/* =============================== Contact Form CSS =================== */
+.contact_title
+{
+  text-align: center;
+  margin: 0 auto;
+    margin-bottom: 50px;
+    width: 440px;
+
+}
+.contact_title h2{
+  font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.form_pro
+{
+  background: transparent;
+  width: 100%;
+  height: 50px;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  box-shadow: none !important;
+  padding-left: 25px;
+  border: 1px solid #ebebeb;
+  margin: 10px 0;
+}
+.form_area
+{
+   padding: 30px 50px 50px;
+    background: #fff;
+    box-shadow: 0px 1px 15px 0px rgb(62 65 159 / 10%);
+    margin-bottom: -125px;
+    position: relative;
+    z-index: 99;
+}
+.high_area
+{
+  height: 200px;
+}
+.form_btn
+{
+  color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    padding: 20px 35px;
+    border: 0;
+    text-transform: capitalize;
+    z-index: 1;
+    position: relative;
+    background: linear-gradient(90deg, rgb(45, 73, 189) 0%, rgb(222, 32, 69) 100%);
+    font-family: "Muli";
+    font-size: 16px;
+    border-radius: 0;
+    margin-top: 10px;
+
+}
+/* ================================= Map =========================== */
+
+.sec_map
+{
+  height: 550px;
+  background-image: url(../src/images/map_img.png);
+  background-position: center;
+  background-size: cover;
+}
+/* ========================================================= */
+/* ========================================================= */
+/*                          Blog Sec CSS                     */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================= Blog Detail CSS ============== */
+.blog_sec1
+{
+  margin-bottom: 70px;
+}
+.blog_sec2
+{
+  margin-bottom: 70px;
+  background-color: #F9F4F4;
+  padding: 25px 35px 45px;
+  position: relative;
+}
+.blog_sec3, .blog_sec4
+{
+  margin-bottom: 70px;
+
+}
+.blog_list
+{
+  margin: 35px 0;
+}
+.blog_list li ,.blog_list li a
+{
+  font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #687693;
+    text-align: center;
+    transition: all 0.2s;
+}
+.blog_list ul li+li::before
+{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 7px;
+  height: 7px;
+  content: "";
+  background: #DE2045;
+  border-radius: 50%;
+}
+.blog_list li+li
+{
+  margin-left: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+.blog_i
+{
+  font-size: 16px;
+  position: relative;
+  margin-right:3px ;
+  margin-top: -2px;
+}
+.blog-content h3 
+{
+  margin: -0.27em 0 0.7em;
+}
+.blog-content h3 a:hover
+{
+  color: #DE2045;
+  transition: all 0.2s;
+}
+
+.blog-content h3 a
+{
+  color: #091854;
+  font-size: 34px;
+  line-height: 1.2em;
+  font-weight: 600;
+  font-family: "Futura PT";
+
+}
+.blog-content p
+{
+  margin-bottom: 1.5em;
+}
+.blog-content a
+{
+  color: #6C7187;
+    text-transform: capitalize;
+    font-size: 16px;
+    cursor: pointer;
+}
+.blog_img_before
+{
+  position: relative;
+}
+.blog_img_before::before
+{
+  content: "";
+  background-color: rgb(22, 57, 103);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.3s;
+  opacity: 0.5;
+}
+.blog_img1 a
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 63px;
+  height: 63px;
+  line-height: 70px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 1;
+  transition: .5s;
+
+}
+.blog_img1 a::after
+{
+  position: absolute;
+  left: -12px;
+  top: -12px;
+  width: 140%;
+  height: 140%;
+  background: rgba(255, 255, 255, 0.3);
+  content: "";
+  -webkit-animation: spineer 2s infinite;
+  animation: spineer 2s infinite;
+  border-radius: 50%;
+  z-index: -1;
+}
+.play_icon
+{
+position:absolute;
+  font-size: 30px;
+ top:28%;
+ left:31%;
+}
+.blog_img1 a:hover .play_icon
+{
+  color: #fff;
+  transition: .5s;
+}
+.blog_img1 a:hover
+{
+  background: #de2045;
+}
+/* =========================blog Carousel ================= */
+.owl .carousel-control-prev ,.owl .carousel-control-next
+{
+  background-color: #de2045;
+
+  width: 50px;
+  height: 50px;
+  line-height: 58px;
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+  color: #DE2045;
+  transition: all 0.3s;
+  border: 0;
+  z-index: 20;
+  opacity: 1;
+  text-align: center;
+}
+.owl .carousel-control-prev:hover ,.owl .carousel-control-next:hover
+{
+  background-color: #de2045;
+}
+
+/* ============================ Pagination CSS =========== */
+.pagination li
+{
+  margin-right: 10px;
+
+
+}
+
+.page-link
+{
+
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: #ebf4fc;
+  display: block;
+  border: none!important;
+  border-radius: 0!important;
+  padding-top: 10px;
+  color: black;
+}
+.page-link span
+{
+  font-size: 16px;
+  font-weight: 600;
+  color: black!important;
+  line-height: 0px;
+  text-align: center;
+  margin-top: 15px;
+}
+.page-link span:first-child
+{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 0;
+  margin: 0;
+  color: black!important;
+  line-height: 30px;
+}
+.page-item.active .page-link, .page-link:hover
+{
+  background-color: #DE2045!important;
+  
+}
+.page-item.active  span
+{
+  color: #fff;
+}
+/* ==================================== Blog Sidebar CSS ======================== */
+.blog_sidebar
+{
+  padding-left: 45px;
+}
+.blog_sidebar_right
+{
+  padding-right: 45px;
+}
+.blog_sidebar .blog_person
+{
+  text-align: center;
+    background-color: #F9F4F4;
+    padding: 45px;
+    position: relative;
+    z-index: 1;
+}
+.blog_img_holder
+{
+  margin-bottom: 25px;
+}
+.blog_img_holder img
+{
+  border-radius: 50%;
+  width: 100%;
+  max-width: 200px;
+}
+.blog_person h4
+{
+  font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #091854;
+    font-family: "Futura PT";
+}
+.blog_person p
+{
+  font-size: 15px;
+  margin-bottom: 1.2em;
+  line-height: 1.8em;
+}
+.social ul li
+{
+  margin-right: 10px;
+}
+.social ul li a
+{
+  text-decoration: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 44px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+}
+.social_icon
+{
+  font-size: 16px;
+  line-height: 1px;
+}
+/* ================ Blog search CSS ============= */
+.blog_search, .blog_categary, .blog_recent, .blog_insta, .blog_tag
+{
+  margin-top:65px ;
+}
+.form_search
+{
+  background-color: rgba(222, 32, 69, 0.15);
+  height: 70px;
+  font-size: 16px;
+  padding: 6px 50px 6px 20px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: none;
+  transition: all 0.3s;
+  width: 100%;
+}
+.blog_search form button
+{
+
+  font-size: 20px;
+  color: #fff;
+  background-color: #DE2045;
+  border: 0;
+  outline: 0;
+  position: absolute;
+  right: 10px;
+  top: 52%;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+  border-radius: 6px;
+  transform: translateY(-50%);
+}
+.blog_categary h3, .blog_recent h3, .blog_insta h3, .blog_tag h3
+{
+  font-size: 23px;
+  color: #091854;
+  margin: 0 0 1.3em;
+  position: relative;
+  text-transform: capitalize;
+  font-family: "Futura PT";
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.blog_categary h3::before, .blog_recent h3::before, .blog_insta h3::before, .blog_tag h3::before
+{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  content: "";
+  width: 55px;
+  height: 4px;
+  background-color: #DE2045;
+  border-radius: 10px;
+}
+.blog_categary h3::after, .blog_recent h3::after, .blog_insta h3::after, .blog_tag h3::after
+{
+  position: absolute;
+  bottom: 0;
+  right:0;
+  content: "";
+  width: 82%;
+  height: 4px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+.blog_categary ul li
+{
+  font-size: 19px;
+  position: relative;
+}
+.blog_categary ul li+li
+{
+  margin-top: 12px;
+  padding-top: 12px;
+}
+
+
+.blog_categary li a
+{
+  display: block;
+  color: #474f62;
+  font-size: 16px;
+  font-family: "Futura PT";
+  transition: all 0.2s;
+}
+.blog_categary li a span
+{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #F9F4F4;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 18px;
+  position: absolute;
+  right: 0;
+}
+.post_item
+{    margin-top: 15px;
+  padding-top: 10px;}
+
+.post_img
+{
+  width:90px;
+ height: 90px;
+}
+.post_img img,.insta_pic ul li img
+{
+  border-radius: 6px;
+}
+.post_detail
+{
+  padding-left: 20px;
+  width: calc(100% - 90px);
+
+}
+.post_detail h4
+{
+
+    margin: 0 0 2px;
+   
+}
+.post_detail h4 a
+{
+  color: #091854;
+  font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3em;
+    font-family: "Futura PT";
+  display: inline-block;
+}
+.post_detail span
+{
+  color: #6C7187;
+  font-size: 13px;
+}
+.insta_pic ul
+{
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  flex: 0 0 33.33%;
+}
+.insta_pic ul li
+{
+  margin-bottom: 5px;
+  padding: 0px 3px;
+  width: 33%;
+}
+.insta_pic ul li img
+{
+  width: 100%;
+}
+.blog_tag ul li{
+
+  margin: 0 8px 8px 0;
+}
+
+.blog_tag ul li a
+{
+    font-size: 15px;
+    display: inline-block;
+    padding: 5px 18px;
+    color: #091854;
+    background: #ecf4fb;
+    border-radius: 5px;
+    font-family: "Futura PT";
+  transition: .4s;
+
+}
+.blog_tag ul li a:hover
+{
+  background-color: #DE2045;
+  color:white;
+  transition: .4s;
+}
+.tag_a ul
+{
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.post_item  h4 a:hover
+{
+  color: #DE2045;
+  transition: 0.4s;
+}
+.margin_c
+{
+  margin-left: 9%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* =========================== Media Queery ========================== */
+  @media screen and (max-width:1200px) {
+    .contact_detail li {
+      font-size: 16px;
+      padding: 15px 8px;
+    }
+
+    .top_icon li a {
+      color: #e5e3e3;
+      font-size: 14px;
+      /* line-height: 16px; */
+    }
+
+    .event_hed {
+      margin-left: 5px;
+      margin-top: 45px;
+    }
+
+    .event_hed h2 {
+      font-size: 35px;
+      line-height: 50px;
+    }
+
+    .icon_top2 {
+      font-size: 24px;
+    }
+
+    .blog_date {
+
+      top: 33% !important;
+      left: 17%
+    }
+
+    .about_text .text h3 {
+      font-size: 19px;
+    }
+
+    .top_header {
+      padding: 0 30px;
+    }
+
+    .carousel-caption {
+      position: absolute;
+      right: 15%;
+      top: 25%;
+      left: 15%;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      color: #fff;
+      text-align: left;
+      width: 870px;
+      z-index: 10;
+    }
+
+    .carousel-caption h2 {
+      font-size: 70px;
+      line-height: 75px;
+      letter-spacing: 2px;
+      font-weight: 500;
+      /* line-height: 95px!important; */
+      margin: 10px 0 15px;
+      color: #fff;
+      text-transform: capitalize;
+    }
+
+    .carousel-caption p {
+      font-size: 22px;
+      color: #fff;
+      line-height: 35px;
+      margin-bottom: 40px;
+      color: #e2e2e2;
+    }
+    .call_btn
+{
+ 
+  flex-basis: 100%;
+}
+.call_item h2
+{
+  font-size: 40px;
+    color: #fff;
+    margin-top: 20px;
+}
+.call_item
+{
+  flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+/* ================== Gallery CSS  =================*/
+.gallery_container
+{
+  position: relative;
+  height: 1663px;
+}
+.grid
+{
+  width: 50%;
+}
+  }
+
+  
+
+  @media screen and (max-width:992px) {
+    .contact_detail {
+      float: none;
+      display: inline-block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact_detail li {
+      font-size: 14px;
+
+    }
+
+    .icon_top2 {
+      font-size: 20px;
+    }
+
+
+
+    .event_hed {
+      text-align: center;
+      margin-bottom: 90px;
+
+    }
+
+    .event_hed::before {
+      left: 42%;
+    }
+
+    .event_hed h2 {
+      font-size: 42px;
+      line-height: 55px;
+    }
+
+    .event_detail span {
+      font-size: 14px;
+    }
+
+    .blog_date {
+
+      top: 39% !important;
+      left: 17%
+    }
+
+    .top_header {
+      padding: 10px 0;
+      ;
+    }
+
+    .carousel-caption {
+      position: absolute;
+      right: 15%;
+      top: 35%;
+      left: 5%;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      color: #fff;
+      text-align: left;
+      width: 870px;
+      z-index: 10;
+      padding-right: 250px;
+    }
+
+    .carousel-caption h2 {
+      font-size: 40px;
+      line-height: 55px;
+      letter-spacing: 2px;
+      font-weight: 500;
+      /* line-height: 95px!important; */
+      margin: 10px 0 15px;
+      color: #fff;
+      text-transform: capitalize;
+    }
+    .carousel-caption p {
+      font-size: 20px;
+      color: #fff;
+      line-height: 35px;
+      margin-bottom: 20px;
+      color: #e2e2e2;
+    }
+    .slide_btn
+    {
+      font-size: 14px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next
+    {
+      display: none;
+    }
+    
+
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next
+    {
+      
+        display: none;
+     
+    }
+
+    .carousel-indicators
+    {
+      opacity: 1;
+    }
+    .footer_2 {
+      padding-left: 0;
+    }
+    .call_btn a
+    {
+      border: 1px solid #fff;
+    }
+    .gallery_container
+{
+  position: relative;
+  height: 1243px;
+}
+.grid
+{
+  width: 50%;
+  padding: 0 4.5px 8px;
+}
+  }
+
+  @media screen and (max-width:778px) {
+    .contact_detail li {
+      font-size: 14px;
+
+    }
+
+    .contact_detail li a {
+      color: #e5e3e3;
+      font-size: 14px;
+      /* line-height: 16px; */
+    }
+
+    .icon_top2 {
+      font-size: 22px;
+    }
+
+    .event_hed h2 {
+      font-size: 42px;
+      line-height: 55px;
+      margin-top: 10px;
+    }
+
+    .blog_date {
+
+      top: 42%;
+      left: 17%
+    }
+
+    .blog_date {
+
+      top: 54% !important;
+      left: 17%
+    }
+
+    .carousel-caption {
+      position: absolute;
+      right: 15%;
+      top: 35%;
+      left: 5%;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      color: #fff;
+      text-align: left;
+      width: 870px;
+      padding-right: 350px;
+      z-index: 10;
+    }
+
+    .carousel-caption h2 {
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: 2px;
+      font-weight: 500;
+      /* line-height: 95px!important; */
+      margin: 10px 0 15px;
+      color: #fff;
+      text-transform: capitalize;
+    }
+    .carousel-caption p {
+      font-size: 16px;
+      color: #fff;
+      line-height: 35px;
+      margin-bottom: 5px;
+      color: #e2e2e2;
+    }
+    .slide_btn
+    {
+      padding: 12px 18px;
+      font-size: 13px;
+  }
+  .carousel-indicators
+  {
+    opacity: 1;
+  }
+  .call_item
+  {
+    padding: 50px 40px;
+  }
+  .gallery_container
+{
+  position: relative;
+  height: 931px;
+}
+.grid
+{
+  width: 50%;
+  padding: 0 4.5px 8px;
+}
+  }
+
+  @media screen and (max-width:576px) {
+    .grid
+{
+  width: 100%;
+  padding: 0 4.5px 8px;
+}
+    .contact_detail li {
+      padding: 8px 6px;
+      font-size: 13px;
+      float: none;
+    }
+
+    .ic ul {
+      float: none;
+    }
+
+    .top_icon li a {
+      color: #e5e3e3;
+      font-size: 16px;
+      /* line-height: 16px; */
+    }
+    .call_item h2
+{
+  font-size: 30px;
+    color: #fff;
+    margin-top: 20px;
+}
+.gallery_container
+{
+  position: relative;
+  height: 3010px
+}
+  }
+
+/* ========================================================= */
+/* ========================================================= */
+/*                            Gallery Page CSS                 */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================= Photo Grid CSS ============== */
+
+.gallery_container
+{
+  position: relative;
+  height: 800px;
+}
+.grid
+{
+  padding: 0 5.5px 10px;
+  width: 33.33%;
+    float: left;
+}
+.img_box
+{
+  position: relative;
+}
+.img_box::before
+{
+  position:absolute;
+  content: " ";
+  top:3%;
+  left:3%;
+ width: 95%;
+ height: 95%;
+  background-color: #00C99F;
+  opacity: 0;
+  transition: all .6s;
+  transform: scale(0);
+}
+.link_plus
+{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  z-index: 4;
+  text-align: center;
+  transition: all 0.3s;
+
+  /* width: 250px; */
+}
+.link_plus .pls_icon
+{
+  font-size: 30px;
+  color: #091854;
+}
+.img_box:hover::before
+{
+  opacity: 1;
+  transform: scale(1);
+}
+.img_box:hover .link_plus 
+{
+  opacity: 1;
+}
+
+
+/* ========================================================= */
+/* ========================================================= */
+/*                            Counter CSS                 */
+/* ========================================================= */
+/* ========================================================= */
+.counter_sec
+{
+  background-image: url(./images/gallery/counter_back.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 120px;
+}
+.counter_sec::before
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: -1;
+  background: linear-gradient(90deg, rgb(45, 73, 189) 0%, rgb(222, 32, 69) 100%);
+  opacity: 0.9;
+}
+
+.counter_sec .item
+{
+  text-align: center;
+  background-color: transparent!important;
+  border: none;
+  z-index: -4;
+  box-shadow: none;
+  padding: 0!important;
+}
+.counter_sec .item p
+{
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 0;
+  color: #fff;
+  font-family: "Futura PT";
+}
+.info h3
+{
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 0.2em;
+  font-family: "Muli";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info, .info_1
+{
+  background-color: transparent;
+}
